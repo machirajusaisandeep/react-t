@@ -2,3 +2,47 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.accordion{
+  display: flex;
+  flex-direction: column;
+  margin:16px 0;
+  width: 100%;
+}
+
+.accordion-head{
+  display: flex;
+  gap:16px;
+}
+
+.accordion-head .accordion-icon{
+  width: 8px;
+  height: 8px;
+}
+
+
+.accordion-head span{
+  color:black;
+  
+}
+
+.accordion-children{
+  padding-left: 16px;
+}
+
+.list-item{
+  display: flex;
+  gap:16px;
+  padding-left: 16px;
+  margin:8px 0;
+  width: 100%;
+}
+.list-item span{
+  width: 100%;
+  white-space: nowrap;
+}
+
+.list-item,.accordion-head img{
+  width: 16px;
+  height: 16px;
+}
